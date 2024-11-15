@@ -1,0 +1,13 @@
+@import "../../../../assets/styles/variables.scss";
+
+.tr{
+    border: 1px solid $border-input;
+    background-color: $white-color;
+    .th{
+        font-weight: bold;
+        padding-left: 50px;
+        padding: 10px;
+        border: none;
+        color: $text-color;
+    }
+}

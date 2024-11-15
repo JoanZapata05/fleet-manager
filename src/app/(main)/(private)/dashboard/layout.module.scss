@@ -1,0 +1,58 @@
+
+
+.layoutContainer {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh;
+  }
+  
+  .mainContainer {
+    display: flex;
+    flex: 1; 
+    width: 100%;
+  }
+  
+  .content {
+    flex: 1; 
+    padding: 20px; 
+    background-color: #f5f5f5; 
+  }
+
+  .private-layout{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0000;
+    display: flex;
+    flex-direction: column;
+
+    .aside_container-layout{
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 40px;
+    }
+
+    .private-container{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1200px){
+    .private-layout{
+        display: flex;
+        flex-direction: row;
+
+        .aside_container-layout{
+            position: fixed;
+            padding-top: 0;
+            width: #0000;
+            height: 100vh;
+        }
+        .private-container{
+            padding-left: #0000;
+            width: 100%;
+        }
+    }
+}
